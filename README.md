@@ -22,7 +22,9 @@ Update the database connection details in the main function:
 
 ## python
 Copy code
-```c = ms.connect(host="localhost", user='root', password='your_password', database='LMS')```
+```
+c = ms.connect(host="localhost", user='root', password='your_password', database='LMS')
+```
 Replace 'your_password' with your MySQL server password.
 
 ## Usage
